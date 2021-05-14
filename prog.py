@@ -92,6 +92,7 @@ for stock in stock_list:
     if flag==1 and rise_amount >= -3 and weimai_1_length != 0:
          selected_stock_df = selected_stock_df.append({"股票代码":stock,"股票名称":today_tick_data.loc[0,'name'],
                                 "涨幅%":rise_amount,"今日/昨日":today_yesterday},ignore_index=True)
+
     print ('(2/3) Filtering 0.85-condition-satisfied stock completed.')
 
 # 5、满足条件二的股票信息存放在selected_stock_df中，将其写入EXCEL
