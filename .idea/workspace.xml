@@ -68,29 +68,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1705" height="440" key="DebuggerActiveHint" timestamp="1621476997212">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1705" height="440" key="DebuggerActiveHint/0.0.1707.1027@0.0.1707.1027" timestamp="1621476997212" />
     <state x="633" y="268" key="FileChooserDialogImpl" timestamp="1620961482146">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="633" y="268" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1620961482146" />
-    <state width="1671" height="274" key="GridCell.Tab.0.bottom" timestamp="1620978925021">
+    <state width="1671" height="339" key="GridCell.Tab.0.bottom" timestamp="1621479554384">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1671" height="274" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1620978925021" />
-    <state width="1671" height="274" key="GridCell.Tab.0.center" timestamp="1620978925021">
+    <state width="1671" height="339" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.0.center" timestamp="1621479554384">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1671" height="274" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1620978925021" />
-    <state width="1671" height="274" key="GridCell.Tab.0.left" timestamp="1620978925021">
+    <state width="1671" height="339" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.0.left" timestamp="1621479554384">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1671" height="274" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1620978925021" />
-    <state width="1671" height="274" key="GridCell.Tab.0.right" timestamp="1620978925021">
+    <state width="1671" height="339" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.0.right" timestamp="1621479554384">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1671" height="274" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1620978925021" />
-    <state x="355" y="158" key="SettingsEditor" timestamp="1620965695890">
+    <state width="1671" height="339" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.1.bottom" timestamp="1621479554384">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="355" y="158" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1620965695890" />
+    <state width="1671" height="339" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.1.center" timestamp="1621479554384">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1671" height="339" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.1.left" timestamp="1621479554384">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1671" height="339" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state width="1671" height="339" key="GridCell.Tab.1.right" timestamp="1621479554384">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1671" height="339" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1621479554384" />
+    <state x="355" y="158" key="SettingsEditor" timestamp="1621478349609">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="355" y="158" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1621478349609" />
+    <state x="416" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1621478389623">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="416" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1707.1027@0.0.1707.1027" timestamp="1621478389623" />
   </component>
 </project>

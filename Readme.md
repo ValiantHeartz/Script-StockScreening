@@ -16,4 +16,4 @@ b) del pd...... #此法直接真正删除
 8、一次性换源：-i https://pypi.tuna.tsinghua.edu.cn/simple  
 9、tushare==1.2.60，pandas==0.16.2，numpy==1.13.3，xlsxwriter==1.3.0,datetime==4.3,pyinstaller==3.6  
 10、python版本：2.7.18
-11、出包：pyinstaller -F rise_to_stop_judge.py
+11、出包：PyInstaller -F rise_to_stop_judge.py

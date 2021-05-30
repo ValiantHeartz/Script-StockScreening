@@ -86,7 +86,7 @@ def generate_target_stock_df(stock):
         yesterday_close = float(today_tick_data.loc[0,'pre_close'])
         rise_amount = (today_open-yesterday_close)*100/yesterday_close
         today_yesterday = round(float(today_925_shou)/yesterday_max_shou,2)
-        if  today_yesterday >= 0.85: # and rise_amount >= -3 and weimai_1_length != 0:  #今日9.25/昨日最大 >= 0.85; 涨幅>=-3%; 委买一不为0
+        if  today_yesterday >= 0.85 and rise_amount >= -3 and weimai_1_length != 0:  #今日9.25/昨日最大 >= 0.85; 涨幅>=-3%; 委买一不为0
             selected_stock_df = selected_stock_df.append({"股票代码":stock,"股票名称":today_tick_data.loc[0,'name'],
                                     "涨幅%":rise_amount,"今日/昨日":today_yesterday},ignore_index=True)
         #break
@@ -111,7 +111,7 @@ def generate_target_stock_df2(stock):
           'Now filtering 0.85-condition-satisfied stock.')
     #to_rise_stock.to_csv('C:/0812.txt')
 
-    # 将条件一中获得的股票整理好放入stock_list
+    # 将条件二中获得的股票整理好放入stock_list
     to_rise_stock = to_rise_stock.reset_index(drop=True)
     length = to_rise_stock.iloc[:,0].size
     stock_list = []
@@ -137,7 +137,7 @@ def generate_target_stock_df2(stock):
         yesterday_close = float(today_tick_data.loc[0,'pre_close'])
         rise_amount = (today_open-yesterday_close)*100/yesterday_close
         today_yesterday = round(float(today_925_shou)/yesterday_max_shou,2)
-        if  today_yesterday >= 2: #and rise_amount >= -3 and weimai_1_length != 0:  #今日9.25/昨日最大 >= 0.85; 涨幅>=-3%; 委买一不为0
+        if  today_yesterday >= 2 and rise_amount >= -3 and weimai_1_length != 0:  #今日9.25/昨日最大 >= 0.85; 涨幅>=-3%; 委买一不为0
             selected_stock_df = selected_stock_df.append({"股票代码":stock,"股票名称":today_tick_data.loc[0,'name'],
                                     "涨幅%":rise_amount,"今日/昨日":today_yesterday},ignore_index=True)
         #break
@@ -146,15 +146,18 @@ def generate_target_stock_df2(stock):
 
 stock1 = generate_target_stock_df(stock)
 stock2 = generate_target_stock_df2(stock)
-selected_stock_df = stock1.append(stock2)
+#selected_stock_df = stock1.append(stock2)
 # 5、满足条件二的股票信息存放在selected_stock_df中，将其写入EXCEL
-if selected_stock_df.empty:
+if stock1.empty & stock1.empty:
     print ('(3/3) Mission Completed.' + '\n' \
           'No stock matches 0.85 condition.')
     time.sleep(3)
 else:
     print ('Now writing the stock data to Excel...')
-    selected_stock_df = selected_stock_df.sort('涨幅%',ascending=False)
+    stock1 = stock1.sort('涨幅%',ascending=False)
+    stock2 = stock2.sort('涨幅%', ascending=False)
+    selected_stock_df = stock1.append(stock2)
+    #selected_stock_df = selected_stock_df.sort('涨幅%',ascending=False)
     selected_stock_df = selected_stock_df.reset_index(drop=True)
 # 写入EXCEL：新建EXCEL文件，新建SHEET，对SHEET进行WRITE
     dir_path = 'price limit judge/'
