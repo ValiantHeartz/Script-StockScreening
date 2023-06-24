@@ -1,3 +1,4 @@
+项目目标：根据缠论实时画出股票K线图，图中含有笔、线段等，并根据规则筛选出高价值股票
 量化分析项目归纳总结：  
 1、不同版本的python使用pip时要加python27 -m pip install ...  
 2、移植代码时要注意模块的版本python27 -m pip install matplotlib==2.0.2  
